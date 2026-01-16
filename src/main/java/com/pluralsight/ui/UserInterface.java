@@ -2,6 +2,8 @@ package com.pluralsight.ui;
 
 import java.util.Scanner;
 
+import static com.pluralsight.daos.TransactionDao.sortByPayments;
+import static com.pluralsight.daos.TransactionDao.sortPreviousMonth;
 import static com.pluralsight.utility.Util.*;
 
 public class UserInterface {
